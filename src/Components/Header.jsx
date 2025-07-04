@@ -6,13 +6,13 @@ export default function Header() {
       {/* Logo */}
       <div className="flex gap-3 items-center ">
         <div>
-          <img src="./brush.png" alt="" />
+          <img src="./brush.png" alt="" className="w-[20px]"/>
         </div>
         <div className="flex flex-col">
-          <h1 className="text-2xl font-bold text-[#36B864] ">
+          <h1 className="text-xl font-bold text-[#36B864] ">
             Pro<span className="text-black">Cleaning</span>
           </h1>
-          <p className="text-[12px]">Cleaning Service Company</p>
+          <p className="text-[10px]">Cleaning Service Company</p>
         </div>
       </div>
       {/* Hamburger */}
