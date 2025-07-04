@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <header className="flex justify-between items-center px-3 border py-3">
+    <header className="flex justify-between items-center px-3 py-3">
       {/* Logo */}
       <div className="flex gap-3 items-center ">
         <div>
