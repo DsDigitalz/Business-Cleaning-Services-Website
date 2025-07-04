@@ -16,10 +16,10 @@ export default function Header() {
         </div>
       </div>
       {/* Hamburger */}
-      <nav className="flex flex-col gap-1.5">
-        <div className="px-4 py-0.5 rounded bg-[#36B864] "></div>
-        <div className="px-4 py-0.5 rounded bg-[#36B864] "></div>
-        <div className="px-4 py-0.5 rounded bg-[#36B864] "></div>
+      <nav className="flex flex-col gap-1">
+        <div className="px-3.5 py-0.5 rounded bg-[#36B864] "></div>
+        <div className="px-3.5 py-0.5 rounded bg-[#36B864] "></div>
+        <div className="px-3.5 py-0.5 rounded bg-[#36B864] "></div>
       </nav>
       {/* Nav Info */}
     </header>
