@@ -6,7 +6,7 @@ export default function Header() {
         {/* Logo */}
       <div></div>
       {/* Nav Info */}
-      <nav></nav>
+    <nav></nav>
     </header>
   );
 }
