@@ -8,7 +8,7 @@ export default function QuoteSection() {
       </div>
       <div className="flex flex-col items-center justify-center text-center mt-10 gap-2 md:items-start md:text-left ">
         <p className="">Affordable cleaning solutions</p>
-        <h1 className="text-4xl w-[90%] font-bold lg:w-[70%] xl:text-[44px] xl:w-[95%]">
+        <h1 className="text-4xl font-bold lg:w-[70%] lg:text-[36px] xl:w-[80%]">
           High-Quality and Friendly Services at Fair Prices
         </h1>
         <p className="text-zinc-500 my-3 w-[70%]">
