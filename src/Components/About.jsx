@@ -10,10 +10,10 @@ export default function About() {
         <h1 className="text-4xl font-bold lg:w-[70%] lg:text-[36px] xl:w-[80%]">
           Welcome To Our Pro-cleaning Company!
         </h1>
-        <p className="text-zinc-500 my-3 w-[70%]">
-          We provide comprehensive cleaning services tailored to your needs.
-          From residential cleaning services
+        <p className="text-zinc-500 my-3 ">
+         We make your space shine! Professional and reliable cleaning service company providing top-notch solutions for homes and businesses. Satisfaction guaranteed!"
         </p>
+        di
         <button className="cursor-pointer bg-[#2a8f4c] rounded text-white py-3 px-5 font-semibold active:bg-[#21723c]">
           Get a quote
         </button>

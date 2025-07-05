@@ -11,7 +11,7 @@ export default function QuoteSection() {
         <h1 className="text-4xl font-bold lg:w-[70%] lg:text-[36px] xl:w-[80%]">
           High-Quality and Friendly Services at Fair Prices
         </h1>
-        <p className="text-zinc-500 my-3 w-[70%]">
+        <p className="text-zinc-500 my-3">
           We provide comprehensive cleaning services tailored to your needs.
           From residential cleaning services
         </p>
