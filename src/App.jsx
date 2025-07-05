@@ -7,6 +7,7 @@ import QuoteSection from "./Components/QuoteSection";
 import TeamInfo from "./Components/TeamInfo";
 import TeamCard from "./Components/TeamCard";
 import About from "./Components/About";
+import Pricing from "./Components/Pricing.Jsx";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
       <TeamInfo/>
       <TeamCard/>
       <About/>
+      <Pricing/>
     </div>
   );
 }
