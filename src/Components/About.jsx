@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <section className="max-w-[1440px] mx-auto px-5 py-10 bg-[#FFFFF0] md:flex md:justify-between md:items-center md:gap-20 md:px-20 lg:gap-10 lg:px-40">
+    <section className="max-w-[1440px] mx-auto px-5 py-10 bg-[#FFFFF0] md:flex md:justify-between md:items-center md:gap-20 md:px-20 lg:gap-10 lg:px-40 scroll-smooth" id="about">
       <div>
         <img src="/a-img.png" alt="" />
       </div>
@@ -47,7 +47,7 @@ export default function About() {
             </div>
             <p>Standard cleaning tasks</p>
           </div>
-          <div className="bg-[#F9F6EE] rounded p-4 flex items-center gap-3">
+          <div className="bg-[#F9F6EE] rounded p-4 flex items-center gap-3 scroll-smooth" id="about">
             <div>
               <img src="/mark.png" alt="" />
             </div>

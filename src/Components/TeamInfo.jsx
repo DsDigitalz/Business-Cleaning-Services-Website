@@ -8,7 +8,7 @@ export default function TeamInfo() {
       </div>
 
       <div className="flex flex-col gap-2 shadow-2xl items-center border pl-5 border-y-zinc-200 border-x-zinc-300 mt-4 bg-white p-3  md:items-start md:w-[50%] md:p-5 md:mt-0">
-        <h1 className="font-semibold text-xl">ExpertTeam</h1>
+        <h1 className="font-semibold text-xl">Expert Team</h1>
         <p className="text-center  md:text-left">
           We have professional expert cleaning staff ensuring top-notch
           cleanliness and hygiene for your space.
