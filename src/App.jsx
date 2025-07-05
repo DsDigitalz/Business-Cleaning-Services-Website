@@ -16,11 +16,11 @@ export default function App() {
       <Hero />
       <BestServiceInfo />
       <BestServiceCard />
-      <QuoteSection/>
-      <TeamInfo/>
-      <TeamCard/>
-      <About/>
-      <Pricing/>
+      <QuoteSection />
+      <TeamInfo />
+      <TeamCard />
+      <About />
+      <Pricing />
     </div>
   );
 }

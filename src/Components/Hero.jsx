@@ -2,9 +2,15 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <section className=" max-w-[2560px] mx-auto relative md:flex md:justify-center scroll-smooth" id="home">
-      <div className="w-full">
-        <img src="/banner.png" alt="" className="w-full" />
+    <section
+      className=" max-w-[2560px] mx-auto relative md:flex md:justify-center scroll-smooth"
+      id="home"
+    >
+      <div className="w-full md:hidden">
+        <img src="/hero.png" alt="" />
+      </div>
+      <div className="hidden md:block  w-full">
+        <img src="/banner.png" alt="" />
       </div>
       <div className=" absolute md:absolute md:top-10 md:left-20 md:flex md:flex-col md:gap-1 lg:top-20 lg:left-41 lg:gap-5 lg:w-[70%] xl:top-33 2xl:top-50 2xl:w-[60%] 2xl:left-99 ">
         <div className="flex flex-col gap-2">
@@ -26,7 +32,6 @@ export default function Hero() {
           <button className="cursor-pointer border rounded py-3 px-5 font-semibold hover:bg-[#2a8f4c] transition-all duration-300 hover:text-white active:bg-[#21723c]">
             View all Services
           </button>
-          
         </div>
       </div>
     </section>
