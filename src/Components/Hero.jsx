@@ -26,6 +26,7 @@ export default function Hero() {
           <button className="cursor-pointer border rounded py-3 px-5 font-semibold hover:bg-[#2a8f4c] transition-all duration-300 hover:text-white active:bg-[#21723c]">
             View all Services
           </button>
+          
         </div>
       </div>
     </section>
