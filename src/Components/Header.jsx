@@ -46,7 +46,7 @@ export default function Header() {
         </li>
       </ul> */}
       {/* <button className="cursor-pointer bg-[#2a8f4c] rounded text-white py-3 px-5 font-semibold active:bg-[#21723c]">
-        Get a quote
+        Get a quot
       </button> */}
     </header>
   );
