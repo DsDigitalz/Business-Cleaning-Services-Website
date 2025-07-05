@@ -8,7 +8,7 @@ export default function Header() {
         <div>
           <img src="./brush.png" alt="" className="w-[20px]" />
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col leading-5">
           <h1 className="text-[19px] font-bold text-[#36B864] ">
             Pro<span className="text-black">Cleaning</span>
           </h1>
