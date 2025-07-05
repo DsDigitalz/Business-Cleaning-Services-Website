@@ -17,7 +17,7 @@ export default function BestServiceCard() {
             While we can customize your cleaning plan to suit your needs, most
             clients schedule regular cleaning services:
           </p>
-          <button className="bg-white border w-[70%] border-zinc-400 rounded px-3 py-2 font-semibold flex items-center gap-3 mb-5 hover:bg-[#2a8f4c] hover:transition-colors duration-300 hover:text-white active:bg-[#21723c] md:w-[50%] lg:w-[80%] xl:w-[45%] 2xl:w-[50%]">
+          <button className="bg-white border w-[50%] border-zinc-400 rounded px-3 py-2 font-semibold flex items-center gap-3 mb-5 hover:bg-[#2a8f4c] hover:transition-colors duration-300 hover:text-white active:bg-[#21723c] active:text-white md:w-[50%] lg:w-[80%] xl:w-[45%] 2xl:w-[50%]">
             Book Now
             <FiArrowUpRight />
           </button>
@@ -36,7 +36,7 @@ export default function BestServiceCard() {
             While we can customize your cleaning plan to suit your needs, most
             clients schedule regular cleaning services:
           </p>
-          <button className="bg-white border w-[50%] border-zinc-400 rounded px-3 py-2 font-semibold flex items-center gap-3 mb-5 hover:bg-[#2a8f4c] hover:transition-colors duration-300 hover:text-white active:bg-[#21723c] md:w-[50%] lg:w-[80%] xl:w-[45%] 2xl:w-[50%] ">
+          <button className="bg-white border w-[50%] border-zinc-400 rounded px-3 py-2 font-semibold flex items-center gap-3 mb-5 hover:bg-[#2a8f4c] hover:transition-colors duration-300 hover:text-white active:bg-[#21723c] active:text-white md:w-[50%] lg:w-[80%] xl:w-[45%] 2xl:w-[50%] ">
             Book Now
             <FiArrowUpRight />
           </button>
@@ -55,7 +55,7 @@ export default function BestServiceCard() {
             While we can customize your cleaning plan to suit your needs, most
             clients schedule regular cleaning services:
           </p>
-          <button className="bg-white border w-[50%] border-zinc-400 rounded px-3 py-2 font-semibold flex items-center gap-3 mb-5 hover:bg-[#2a8f4c] hover:transition-colors duration-300 hover:text-white active:bg-[#21723c] md:w-[50%] lg:w-[80%] xl:w-[45%] 2xl:w-[50%]">
+          <button className="bg-white border w-[50%] border-zinc-400 rounded px-3 py-2 font-semibold flex items-center gap-3 mb-5 hover:bg-[#2a8f4c] hover:transition-colors duration-300 hover:text-white active:bg-[#21723c] a active:text-white md:w-[50%] lg:w-[80%] xl:w-[45%] 2xl:w-[50%]">
             Book Now
             <FiArrowUpRight />
           </button>
