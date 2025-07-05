@@ -6,6 +6,7 @@ import BestServiceCard from "./Components/BestServiceCard";
 import QuoteSection from "./Components/QuoteSection";
 import TeamInfo from "./Components/TeamInfo";
 import TeamCard from "./Components/TeamCard";
+import About from "./Components/About";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       <QuoteSection/>
       <TeamInfo/>
       <TeamCard/>
+      <About/>
     </div>
   );
 }

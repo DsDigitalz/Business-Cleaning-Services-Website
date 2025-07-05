@@ -28,7 +28,7 @@ export default function BestServiceCard() {
         hover:scale-103 hover:transition-all-opacity duration-500"
       >
         <div className="rounded-4xl p-5 hover:w-full hover:p-0 hover:transition-all-opacity duration-500 hover:shadow-2xl">
-          <img src="/card2.png" alt="" className="2xl:w-full"/>
+          <img src="/card2.png" alt="" className="2xl:w-full" />
         </div>
         <div className="flex flex-col gap-4 px-5 pb-5">
           <h1 className="font-semibold text-[24px]">Spring Cleaning</h1>
@@ -47,7 +47,7 @@ export default function BestServiceCard() {
         hover:scale-103 hover:transition-all-opacity duration-500 "
       >
         <div className="rounded-4xl p-5 hover:w-full hover:p-0 hover:transition-all-opacity duration-500 hover:shadow-2xl">
-          <img src="/card3.png" alt="" className="2xl:w-full"/>
+          <img src="/card3.png" alt="" className="2xl:w-full" />
         </div>
         <div className="flex flex-col gap-4 px-5 pb-5">
           <h1 className="font-semibold text-[24px]">House Cleaning</h1>
