@@ -22,7 +22,7 @@ export default function Pricing() {
           <h1 className="font-medium text-[20px]">BASIC PACKAGE</h1>
           <button className="px-5 py-4 bg-[#2a8f4c] rounded-lg text-white font-semibold text-2xl">
             <span className="text-[12px] font-light">$</span>59.00/
-            <span className="text-[12px] font-light">Monthly</span>{" "}
+            <span className="text-[12px] font-light">Monthly</span>
           </button>
           <div>
             <div className="bg-zinc-700 p-1 rounded-full"></div>
@@ -76,7 +76,7 @@ export default function Pricing() {
           </h1>
           <button className="px-5 py-4 bg-[#2a8f4c] rounded-lg text-white font-semibold text-2xl">
             <span className="text-[12px] font-light">$</span>69.00/
-            <span className="text-[12px] font-light">Monthly</span>{" "}
+            <span className="text-[12px] font-light">Monthly</span>
           </button>
           <div>
             <div className="bg-zinc-700 p-1 rounded-full"></div>
@@ -125,7 +125,7 @@ export default function Pricing() {
           <h1 className="font-medium text-[20px] uppercase">Premium Package</h1>
           <button className="px-5 py-4 bg-[#2a8f4c] rounded-lg text-white font-semibold text-2xl">
             <span className="text-[12px] font-light">$</span>99.00/
-            <span className="text-[12px] font-light">Monthly</span>{" "}
+            <span className="text-[12px] font-light">Monthly</span>
           </button>
           <div>
             <div className="bg-zinc-700 p-1 rounded-full"></div>
