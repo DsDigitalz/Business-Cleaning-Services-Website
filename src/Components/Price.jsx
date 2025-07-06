@@ -64,7 +64,7 @@ export default function Price() {
                     Emptying trash bins
                   </p>
                 </div>
-                <button className="mt-5 p-3 border border-zinc-500 *:cursor-pointer hover:bg-[#2a8f4c] rounded hover:text-white transition-all duration-300 py-3 px-5 font-semibold active:bg-[#21723c]">
+                <button className="mt-5 p-3 border border-zinc-500 *:cursor-pointer hover:bg-[#2a8f4c] rounded hover:text-white transition-all duration-300 py-3 px-5 font-semibold active:bg-[#21723c]  active:text-white">
                   Book Now
                 </button>
               </div>
@@ -116,7 +116,7 @@ export default function Price() {
                     Spot cleaning walls and doors
                   </p>
                 </div>
-                <button className="mt-5 p-3 border border-zinc-500 *:cursor-pointer hover:bg-[#2a8f4c] rounded hover:text-white transition-all duration-300 py-3 px-5 font-semibold active:bg-[#21723c]">
+                <button className="mt-5 p-3 border border-zinc-500 *:cursor-pointer hover:bg-[#2a8f4c] rounded hover:text-white transition-all duration-300 py-3 px-5 font-semibold active:bg-[#21723c] active:text-white">
                   Book Now
                 </button>
               </div>
@@ -169,7 +169,7 @@ export default function Price() {
                     Detailed bathroom cleaning
                   </p>
                 </div>
-                <button className="mt-5 p-3 border border-zinc-500 *:cursor-pointer hover:bg-[#2a8f4c] rounded hover:text-white transition-all duration-300 py-3 px-5 font-semibold active:bg-[#21723c]">
+                <button className="mt-5 p-3 border border-zinc-500 *:cursor-pointer hover:bg-[#2a8f4c] rounded hover:text-white transition-all duration-300 py-3 px-5 font-semibold active:bg-[#21723c]  active:text-white">
                   Book Now
                 </button>
               </div>

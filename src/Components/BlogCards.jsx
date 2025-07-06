@@ -1,5 +1,5 @@
 import React from "react";
-
+import { CgDetailsMore } from "react-icons/cg";
 export default function BlogCards() {
   return (
     <section
@@ -24,6 +24,7 @@ export default function BlogCards() {
           </p>
           <button className="cursor-pointer bg-white border w-[50%] border-zinc-400 rounded px-3 py-2 font-semibold flex items-center gap-3 mb-5 hover:bg-[#2a8f4c] hover:transition-colors duration-300 hover:text-white active:bg-[#21723c] active:text-white md:w-[60%] lg:w-[90%] xl:w-[45%] 2xl:w-[50%]">
             Read More
+            <CgDetailsMore />
           </button>
         </div>
       </div>
@@ -45,6 +46,7 @@ export default function BlogCards() {
           </p>
           <button className="cursor-pointer bg-white border w-[50%] border-zinc-400 rounded px-3 py-2 font-semibold flex items-center gap-3 mb-5 hover:bg-[#2a8f4c] hover:transition-colors duration-300 hover:text-white active:bg-[#21723c] active:text-white md:w-[60%] lg:w-[90%] xl:w-[45%] 2xl:w-[50%]">
             Read More
+              <CgDetailsMore />
           </button>
         </div>
       </div>
@@ -65,6 +67,7 @@ export default function BlogCards() {
           </p>
           <button className="cursor-pointer bg-white border w-[50%] border-zinc-400 rounded px-3 py-2 font-semibold flex items-center gap-3 mb-5 hover:bg-[#2a8f4c] hover:transition-colors duration-300 hover:text-white active:bg-[#21723c] active:text-white md:w-[60%] lg:w-[90%] xl:w-[45%] 2xl:w-[50%]">
             Read More
+              <CgDetailsMore />
           </button>
         </div>
       </div>

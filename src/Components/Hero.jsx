@@ -12,8 +12,8 @@ export default function Hero() {
       <div className=" hidden md:block w-full">
         <img src="/banner.png" alt="" className="w-full" />
       </div>
-      <div className=" flex flex-col gap-10 absolute left-5 top-40 w-[90%] sm:absolute md:absolute md:top-10 md:left-20 md:flex md:flex-col md:gap-1 lg:top-20 lg:left-41 lg:gap-5 lg:w-[70%] xl:top-20 2xl:top-50 2xl:w-[60%] 2xl:left-99 ">
-        <div className="flex flex-col gap-4">
+      <div className=" flex flex-col gap-7 absolute left-5 top-30 w-[90%] sm:absolute md:absolute md:top-10 md:left-20 md:flex md:flex-col md:gap-1 lg:top-20 lg:left-41 lg:gap-5 lg:w-[70%] xl:top-20 2xl:top-50 2xl:w-[60%] 2xl:left-99 ">
+        <div className="flex flex-col gap-2">
           <p className="text-white  md:text-[16px] md:text-black xl:text-[20px]">
             Quality cleaning at a fair price
           </p>
@@ -26,10 +26,10 @@ export default function Hero() {
           energy, and money.
         </p>
         <div className="flex gap-1 md:flex md:gap-3">
-          <button className="cursor-pointer bg-[#2a8f4c] hover:scale-102 transition-all duration-500 rounded text-white py-3 px-5 font-semibold active:bg-[#21723c]">
+          <button className="cursor-pointer bg-[#2a8f4c] hover:scale-102 transition-all duration-500 rounded text-white py-3 px-5 font-semibold active:bg-[#2c5439]">
             Get Start Now
           </button>
-          <button className="text-white cursor-pointer border hover:scale-102 border-zinc-500 md:border-zinc-600 md:text-black rounded py-3 px-5 font-semibold hover:bg-zinc-100 transition-all duration-300 hover:border-none active:bg-[#dcdddc]">
+          <button className="text-white cursor-pointer border hover:scale-102 border-zinc-500 md:border-zinc-600 md:text-black rounded py-3 px-5 font-semibold hover:bg-zinc-100 transition-all duration-300 hover:border-none active:bg-[#dcdddc] active:text-black">
             View all Services
           </button>
         </div>
