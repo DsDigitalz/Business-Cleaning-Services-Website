@@ -28,7 +28,7 @@ export default function Header() {
         <div className="px-3.5 py-0.5 rounded bg-[#36B864] "></div>
       </button>
       {/* Nav Info */}
-      {/* <ul className="flex gap-10 font-medium md:">
+      <ul className="lg:flex items-center gap-10 font-medium hidden  lg:visible">
         <li className="cursor-pointer hover:scale-103 transition-all duration-300 hover:text-[#36B864] hover:pb-1 hover:border-b  active:text-[#21723c]">
           <a href="#home">Home</a>
         </li>
@@ -44,10 +44,10 @@ export default function Header() {
         <li className="cursor-pointer hover:scale-103 transition-all duration-300 hover:text-[#36B864] hover:pb-1 hover:border-b  active:text-[#21723c]">
           <a href="#contact">Contact</a>
         </li>
-      </ul> */}
-      {/* <button className="cursor-pointer bg-[#2a8f4c] rounded text-white py-3 px-5 font-semibold active:bg-[#21723c]">
-        Get a quote
-      </button> */}
+        <button className="cursor-pointer bg-[#2a8f4c] rounded text-white py-3 px-5 font-semibold active:bg-[#21723c] hidden lg:block">
+          Get a quote
+        </button>
+      </ul>
     </header>
   );
 }
