@@ -41,11 +41,11 @@ export default function Testimonials() {
           </p>
           <div className="flex gap-3 items-center">
             <button className="cursor-pointer hover:bg-[#2a8f4c] border rounded-lg border-[#2a8f4c] hover:text-white py-2 px-5 font-semibold active:bg-[#21723c]  active:text-white transition-all duration-300">
-              <IoIosArrowRoundBack className="text-[#2a8f4c] hover:text-white text-3xl" />
+              <IoIosArrowRoundBack className="text-[#2a8f4c] hover:text-white text-3xl  active:text-white" />
             </button>
 
-            <button className="cursor-pointer hover:bg-[#2a8f4c] border border-[#2a8f4c] rounded-lg  active:text-white  py-2 px-5 font-semibold active:bg-[#21723c] transition-all duration-300 hover:text-white">
-              <IoIosArrowRoundForward className="text-[#2a8f4c] text-3xl  hover:text-white" />
+            <button className="cursor-pointer hover:bg-[#2a8f4c] border border-[#2a8f4c] rounded-lg   py-2 px-5 font-semibold active:bg-[#21723c] transition-all duration-300 hover:text-white ">
+              <IoIosArrowRoundForward className="text-[#2a8f4c] text-3xl  hover:text-white  active:text-white" />
             </button>
           </div>
         </div>
