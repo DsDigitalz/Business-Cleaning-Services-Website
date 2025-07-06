@@ -52,7 +52,7 @@ export default function Footer() {
               className="border border-zinc-500 rounded p-3 w-full lg:text-[12px] xl:text-[14px]"
             />
           </label>
-          <button className="cursor-pointer bg-[#2a8f4c] rounded text-white py-3 px-5 font-semibold active:bg-[#21723c] w-[30%] lg:w-[70%] xl:w-[50%]">
+          <button className="cursor-pointer bg-[#2a8f4c] rounded text-white py-3 px-5 font-semibold active:bg-[#21723c] w-full lg:w-[70%] xl:w-[50%]">
             Send
           </button>
         </div>
