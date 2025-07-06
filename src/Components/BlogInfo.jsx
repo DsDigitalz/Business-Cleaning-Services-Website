@@ -2,7 +2,7 @@ import React from "react";
 
 export default function BlogInfo() {
   return (
-    <section className="border-b border-zinc-300 mb-10 ">
+    <section className="border-b border-zinc-300 mb-10 scroll-smooth" id="blog">
       <div className="bg-white max-w-[1440px] mx-auto flex flex-col  items-center pt-5 px-10 text-[#111D15] mt-10 md:flex-row md:items-center md:justify-between md:gap-10 md:px-20 md:py-10 lg:px-40">
         <div className=" text-3xl font-bold  px-3 text-center  py-3 sm:w-[60%] md:flex md:items-center md:text-left md:mt-0 lg:text-[36px] bg-[#FAF9F6] md:p-5 md:w-[70%] lg:w-[70%]">
           Stay Updated with Our Tips & Service News!

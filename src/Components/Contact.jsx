@@ -5,7 +5,7 @@ import { IoLocationSharp } from "react-icons/io5";
 export default function Contact() {
   return (
     <section className="bg-zinc-50">
-      <div className="max-w-[1440px] mx-auto px-5  py-5 md:px-20 lg:px-40 lg:flex lg:items-center lg:justify-between lg:gap-20">
+      <div className="max-w-[1440px] mx-auto px-5  py-5 md:px-20 lg:px-40 lg:flex lg:items-center lg:justify-between lg:gap-20 scroll-smooth" id="contact">
         <div className=" flex flex-col gap-5 lg:flex-1">
           <h1 className="text-4xl font-semibold mb-2">Find us</h1>
           <div className="flex items-center gap-3 bg-white p-3 rounded-lg">
