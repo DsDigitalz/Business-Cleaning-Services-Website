@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Pricing() {
+export default function Price() {
   return (
     <section className="bg-[#2a8f4c]">
       <div className="max-w-[1440px] mx-auto bg-[#2a8f4c] px-5 py-10 my-10 md:px-20 lg:px-40">

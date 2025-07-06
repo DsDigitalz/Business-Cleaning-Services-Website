@@ -7,12 +7,12 @@ import QuoteSection from "./Components/QuoteSection";
 import TeamInfo from "./Components/TeamInfo";
 import TeamCard from "./Components/TeamCard";
 import About from "./Components/About";
-import Pricing from "./Components/Pricing.Jsx";
 import Testimonials from "./Components/Testimonials";
 import BlogInfo from "./Components/BlogInfo";
 import BlogCards from "./Components/BlogCards";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
+import Price from "./Components/Price";
 
 export default function App() {
   return (
@@ -25,12 +25,12 @@ export default function App() {
       <TeamInfo />
       <TeamCard />
       <About />
-      <Pricing />
-      <Testimonials/>
-      <BlogInfo/>
-      <BlogCards/>
-      <Contact/>
-      <Footer/>
+      <Price />
+      <Testimonials />
+      <BlogInfo />
+      <BlogCards />
+      <Contact />
+      <Footer />
     </div>
   );
 }
