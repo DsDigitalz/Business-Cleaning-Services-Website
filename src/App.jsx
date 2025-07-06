@@ -8,6 +8,8 @@ import TeamInfo from "./Components/TeamInfo";
 import TeamCard from "./Components/TeamCard";
 import About from "./Components/About";
 import Pricing from "./Components/Pricing.Jsx";
+import Testimonials from "./Components/Testimonials";
+import BlogInfo from "./Components/BlogInfo";
 
 export default function App() {
   return (
@@ -21,6 +23,8 @@ export default function App() {
       <TeamCard />
       <About />
       <Pricing />
+      <Testimonials/>
+      <BlogInfo/>
     </div>
   );
 }
