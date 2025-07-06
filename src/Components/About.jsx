@@ -62,10 +62,10 @@ export default function About() {
             </div>
           </div>
           <div className="flex flex-col gap-3 mt-5 lg:flex-row lg:gap-3">
-            <button className="cursor-pointer bg-[#2a8f4c] rounded text-white py-3 px-5 font-semibold active:bg-[#21723c]">
+            <button className="transition-all duration-300 cursor-pointer bg-[#2a8f4c] rounded text-white py-3 px-5 font-semibold active:bg-[#21723c]">
               Book Now
             </button>
-            <button className="cursor-pointer bg-white rounded border border-zinc-400 py-3 px-5 font-semibold hover:bg-[#2a8f4c] hover:text-white active:bg-[#21723c] transition-all duration-300">
+            <button className="cursor-pointer  rounded border border-zinc-400 py-3 px-5 font-semibold hover:bg-[#f3f4f3] active:bg-[#e4e4e4] transition-all duration-300">
               Know More
             </button>
           </div>

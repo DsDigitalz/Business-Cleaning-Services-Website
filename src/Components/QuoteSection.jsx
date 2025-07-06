@@ -16,7 +16,7 @@ export default function QuoteSection() {
             We provide comprehensive cleaning services tailored to your needs.
             From residential cleaning services
           </p>
-          <button className="cursor-pointer bg-[#2a8f4c] rounded text-white py-3 px-5 font-semibold active:bg-[#21723c]">
+          <button className="transition-all duration-300 cursor-pointer bg-[#2a8f4c] rounded text-white py-3 px-5 font-semibold active:bg-[#21723c]">
             Get a quote
           </button>
         </div>

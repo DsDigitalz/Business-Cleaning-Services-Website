@@ -26,10 +26,10 @@ export default function Hero() {
           energy, and money.
         </p>
         <div className="flex gap-1 md:flex md:gap-3">
-          <button className="cursor-pointer bg-[#2a8f4c] hover:scale-102 transition-all duration-500 rounded text-white py-3 px-5 font-semibold active:bg-[#2c5439]">
+          <button className="text-[14px] lg:text-[16px] cursor-pointer bg-[#2a8f4c] hover:scale-102 transition-all duration-500 rounded text-white py-3 px-5 font-semibold active:bg-[#2c5439]">
             Get Start Now
           </button>
-          <button className="text-white cursor-pointer border hover:scale-102 border-zinc-500 md:border-zinc-600 md:text-black rounded py-3 px-5 font-semibold hover:bg-zinc-100 transition-all duration-300 hover:border-none active:bg-[#dcdddc] active:text-black">
+          <button className="text-[14px] lg:text-[16px] text-white cursor-pointer border hover:scale-102 border-zinc-500 md:border-zinc-600 md:text-black rounded py-3 px-5 font-semibold hover:bg-zinc-100 transition-all duration-300 hover:border-none active:bg-[#dcdddc] active:text-black">
             View all Services
           </button>
         </div>

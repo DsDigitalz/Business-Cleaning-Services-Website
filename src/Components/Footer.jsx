@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <section className="bg-[#111D15] w-full pt-15 pb-5 mt-10 lg:pt-30 scroll scroll-smooth" id="footer">
+    <section className="bg-[#111D15] w-full pt-20 pb-5 mt-10 lg:pt-30 scroll scroll-smooth" id="footer">
       <div className="max-w-[1440px] flex flex-col gap-12 mx-auto px-5 md:px-20 lg:px-40 lg:flex-row lg:items-center lg:justify-between  text-white">
         {/* First container */}
         <div className="flex flex-col gap-7 lg:flex-1/4">
@@ -52,7 +52,7 @@ export default function Footer() {
               className="border border-zinc-500 rounded p-3 w-full lg:text-[12px] xl:text-[14px]"
             />
           </label>
-          <button className="cursor-pointer bg-[#2a8f4c] rounded text-white py-3 px-5 font-semibold active:bg-[#21723c] w-full lg:w-[70%] xl:w-[50%]">
+          <button className="transition-all duration-300 cursor-pointer bg-[#2a8f4c] rounded text-white py-3 px-5 font-semibold active:bg-[#21723c] w-full lg:w-[70%] xl:w-[50%]">
             Send
           </button>
         </div>

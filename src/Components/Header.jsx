@@ -13,10 +13,10 @@ export default function Header() {
           />
         </div>
         <div className="flex flex-col leading-5">
-          <h1 className="text-[19px] font-bold text-[#36B864] lg:text-2xl xl:text-3xl">
+          <h1 className="text-[18px] md:text-xl font-bold text-[#36B864] lg:text-2xl xl:text-3xl">
             Pro<span className="text-black">Cleaning</span>
           </h1>
-          <p className="text-[10px] lg:text-[12px] xl:text-[15px]">
+          <p className="text-[9px] md:text-[10px] lg:text-[12px] xl:text-[15px]">
             Cleaning Service Company
           </p>
         </div>
@@ -44,7 +44,7 @@ export default function Header() {
         <li className="cursor-pointer hover:scale-103 transition-all duration-300 hover:text-[#36B864] hover:pb-1 hover:border-b  active:text-[#21723c]">
           <a href="#contact">Contact</a>
         </li>
-        <button className="cursor-pointer bg-[#2a8f4c] rounded text-white py-3 px-5 font-semibold active:bg-[#21723c] hidden lg:block">
+        <button className="transition-all duration-300 cursor-pointer bg-[#2a8f4c] rounded text-white py-3 px-5 font-semibold active:bg-[#21723c] hidden lg:block">
           Get a quote
         </button>
       </ul>
