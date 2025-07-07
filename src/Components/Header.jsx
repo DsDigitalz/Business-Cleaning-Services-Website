@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <header className=" flex flex-col lg:flex-row lg:justify-between px-5 lg:px-10 py-3">
       {/* Logo */}
-      <div className="flex justify-between items-center pt-2 ">
+      <div className="flex justify-between items-center ">
         <div className="flex gap-2">
           <div>
             <img
@@ -52,12 +52,12 @@ export default function Header() {
         </button>
       </div>
       {/* Nav Info */}
-      {/* <nav
-        className={`lg:flex lg:justify-between lg:items-center transform transition-transform duration-300 ${
+      <nav
+        className={`lg:flex lg:justify-between lg:items-center ${
           isOpen ? "block" : "hidden"
         } 
-        `} */}
-      {/* > */}
+        `}
+      >
         <ul className="bg-white w-full absolute top-15 right-0 z-10 py-10 lg:py-0 flex  flex-col gap-3 lg:flex-row items-center lg:gap-10 font-medium  lg:visible lg:static ">
           <li className="text-center  rounded bg-[#c0fad45b] w-full lg:w-fit p-3 lg:p-0 cursor-pointer hover:scale-103 transition-all duration-300 hover:text-[#36B864] hover:pb-1 hover:border-b  active:text-[#21723c] lg:bg-white ">
             <a href="#home">Home</a>
@@ -78,7 +78,7 @@ export default function Header() {
             Get a quote
           </button>
         </ul>
-      {/* </nav> */}
+      </nav>
     </header>
   );
 }

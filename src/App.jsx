@@ -13,7 +13,8 @@ import BlogCards from "./Components/BlogCards";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Price from "./Components/Price";
-import Scroll from "./Components/Scroll";
+import ScrollUp from "./Components/ScrollUp";
+import ScrollDown from "./Components/ScrollDown";
 
 export default function App() {
   return (
@@ -32,7 +33,8 @@ export default function App() {
       <BlogCards />
       <Contact />
       <Footer />
-      <Scroll/>
+      <ScrollUp/>
+      <ScrollDown/>
     </div>
   );
 }
