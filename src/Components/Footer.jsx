@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <section className="bg-[#111D15] w-full pt-20 pb-5 mt-10 lg:pt-30 scroll scroll-smooth" id="footer">
+    <section className="bg-[#111D15] w-full pt-15 pb-5 mt-10 lg:pt-30 scroll scroll-smooth" id="footer">
       <div className="max-w-[1440px] flex flex-col gap-12 mx-auto px-5 md:px-20 lg:px-40 lg:flex-row lg:items-center lg:justify-between  text-white">
         {/* First container */}
         <div className="flex flex-col gap-7 lg:flex-1/4">
