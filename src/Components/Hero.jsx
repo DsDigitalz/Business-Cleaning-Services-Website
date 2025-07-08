@@ -3,7 +3,7 @@ import React from "react";
 export default function Hero() {
   return (
     <section
-      className="relative mx-auto md:flex md:justify-center scroll-smooth"
+      className="hero relative mx-auto md:flex md:justify-center scroll-smooth"
       id="home"
     >
       <div className="md:hidden">
