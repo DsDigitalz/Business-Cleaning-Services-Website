@@ -6,7 +6,7 @@ export default function ScrollUp() {
   const [scrollPosition, setScrollPosition] = useState(true);
   // Function to handle scroll event
   function toggleScrollButton() {
-    if (window.scrollY > 300) {
+    if (window.scrollY > 500) {
       setScrollPosition(true);
     } else {
       setScrollPosition(false);
@@ -20,8 +20,8 @@ export default function ScrollUp() {
     return () => window.removeEventListener("scroll", toggleScrollButton);
   }, []);
 
-  function scrollToTop() {
-    window.scrollTo({
+  function scrollUp() {
+    window.scroll({
       top: 0,
       behavior: "smooth",
     });
@@ -30,16 +30,13 @@ export default function ScrollUp() {
   return (
     <div>
       <button
-        onClick={scrollToTop}
-        className={`fixed bottom-20 right-3  lg:right-5 bg-[#ffffff85] text-2xl p-2 lg:p-3 shadow shadow-zinc-200 rounded-full lg:text-3xl ${
-          scrollPosition ? "block" : "hidden"
-        } transition-all duration-300 ease-in-out`}
+        onClick={scrollUp}
+        className={`cursor-pointer fixed bottom-20 right-3  lg:right-5 bg-[#ffffff85] text-2xl p-2 lg:p-3 shadow shadow-zinc-200 rounded-full lg:text-3xl transition duration-500 ${
+          scrollPosition ? "opacity-100" : "opacity-0 "
+        } `}
       >
         <MdKeyboardDoubleArrowUp />
       </button>
-      {/* <div className="fixed bottom-20 right-3  lg:right-5 bg-[#ffffff85] text-2xl p-2 lg:p-3 shadow shadow-zinc-200 rounded-full lg:text-3xl">
-        <MdKeyboardDoubleArrowDown />
-      </div> */}
     </div>
   );
 }

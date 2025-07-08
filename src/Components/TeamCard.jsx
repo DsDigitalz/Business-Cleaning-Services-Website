@@ -16,13 +16,13 @@ export default function TeamCard() {
           <img src="/team1.png" alt="" className="2xl:w-full rounded-4xl" />
         </div>
         <div className="flex flex-col gap-4 px-5 pb-5">
-          <h1 className="font-semibold text-[24px]">Erick Reynolds</h1>
+          <h1 className="font-semibold text-[24px]">Chloe Armstrong</h1>
           <div>
             <img src="/stars.png" alt="" />
           </div>
           <p>
             She is an expert cleaning staff member who provides thorough
-            cleaning with precision,
+            cleaning with precision
           </p>
           <div className="flex gap-7 text-lg mb-5 ">
             <a href="">
@@ -48,13 +48,13 @@ export default function TeamCard() {
           <img src="/team2.png" alt="" className="2xl:w-full rounded-4xl" />
         </div>
         <div className="flex flex-col gap-4 px-5 pb-5">
-          <h1 className="font-semibold text-[24px]">Erick Reynolds</h1>
+          <h1 className="font-semibold text-[24px]">Ethan Collins</h1>
           <div>
             <img src="/stars.png" alt="" />
           </div>
           <p>
-            She is an expert cleaning staff member who provides thorough
-            cleaning with precision,
+            He is an expert cleaning staff member who provides thorough
+            cleaning with precision
           </p>
           <div className="flex gap-7 text-lg mb-5 ">
             <a href="">
@@ -80,13 +80,13 @@ export default function TeamCard() {
           <img src="/team3.png" alt="" className="2xl:w-full rounded-4xl" />
         </div>
         <div className="flex flex-col gap-4 px-5 pb-5">
-          <h1 className="font-semibold text-[24px]">Erick Reynolds</h1>
+          <h1 className="font-semibold text-[24px]">Sophia Delgado</h1>
           <div>
             <img src="/stars.png" alt="" />
           </div>
           <p>
             She is an expert cleaning staff member who provides thorough
-            cleaning with precision,
+            cleaning with precision
           </p>
           <div className="flex gap-7 text-lg mb-5 ">
             <a href="">
