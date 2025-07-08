@@ -3,7 +3,7 @@ import React from "react";
 export default function Hero() {
   return (
     <section
-      className="hero relative mx-auto md:flex md:justify-center scroll-smooth"
+      className="relative mx-auto md:flex md:justify-center scroll-smooth"
       id="home"
     >
       <div className="md:hidden">
@@ -12,7 +12,7 @@ export default function Hero() {
       <div className=" hidden md:block w-full">
         <img src="/banner.png" alt="" className="w-full" />
       </div>
-      <div className=" flex flex-col gap-7 absolute left-5 top-40 w-[90%] sm:absolute  md:absolute md:top-10 md:left-20 md:flex md:flex-col md:gap-1 lg:top-20 lg:left-41 lg:gap-5 lg:w-[70%] xl:top-20 2xl:top-50 2xl:w-[60%] 2xl:left-99 ">
+      <div className="hero flex flex-col gap-7 absolute left-5 top-40 w-[90%] sm:absolute  md:absolute md:top-10 md:left-20 md:flex md:flex-col md:gap-1 lg:top-20 lg:left-41 lg:gap-5 lg:w-[70%] xl:top-20 2xl:top-50 2xl:w-[60%] 2xl:left-99 ">
         <div className="flex flex-col gap-2">
           <p className="text-white  md:text-[16px] md:text-black xl:text-[20px]">
             Quality cleaning at a fair price
