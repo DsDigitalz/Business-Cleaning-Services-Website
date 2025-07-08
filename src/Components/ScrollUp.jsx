@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { MdKeyboardDoubleArrowUp } from "react-icons/md";
-import { MdKeyboardDoubleArrowDown } from "react-icons/md";
+// import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 export default function ScrollUp() {
   // Create a hook using useState to manage the scroll position
   const [scrollPosition, setScrollPosition] = useState(true);
@@ -13,10 +13,12 @@ export default function ScrollUp() {
     }
   }
   // Add event listener for scroll
-  window.addEventListener("scroll", toggleScrollButton);
-  // Remove event listener on component unmount
-  // This is important to prevent memory leaks
-  // return () => removeEventListener("scroll", toggleScrollButton);
+  useEffect(() => {
+    window.addEventListener("scroll", toggleScrollButton);
+    // Remove event listener on component unmount
+    // This is important to prevent memory leaks
+    return () => window.removeEventListener("scroll", toggleScrollButton);
+  }, []);
 
   function scrollToTop() {
     window.scrollTo({
@@ -31,7 +33,7 @@ export default function ScrollUp() {
         onClick={scrollToTop}
         className={`fixed bottom-20 right-3  lg:right-5 bg-[#ffffff85] text-2xl p-2 lg:p-3 shadow shadow-zinc-200 rounded-full lg:text-3xl ${
           scrollPosition ? "block" : "hidden"
-        }`}
+        } transition-all duration-300 ease-in-out`}
       >
         <MdKeyboardDoubleArrowUp />
       </button>

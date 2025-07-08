@@ -14,7 +14,7 @@ import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Price from "./Components/Price";
 import ScrollUp from "./Components/ScrollUp";
-import ScrollDown from "./Components/ScrollDown";
+// import ScrollDown from "./Components/ScrollDown";
 
 export default function App() {
   return (
@@ -34,7 +34,7 @@ export default function App() {
       <Contact />
       <Footer />
       <ScrollUp/>
-      <ScrollDown/>
+      {/* <ScrollDown/> */}
     </div>
   );
 }
