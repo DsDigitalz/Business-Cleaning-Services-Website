@@ -67,7 +67,7 @@ export default function Contact() {
               name="message"
               id="message"
               placeholder="Message "
-              className="p-3 w-full outline-[#2a8f4c] shadow border border-zinc-300"
+              className="p-3 w-full outline-[#2a8f4c] shadow border border-zinc-300 resize-none"
             ></textarea>
           </label>
           <button className="transition-all duration-300 cursor-pointer bg-[#2a8f4c] rounded text-white py-3 px-5 font-semibold active:bg-[#21723c] w-[50%] md:w-[40%] lg:w-[60%] xl:w-[40%] 2xl:w-[40%]">

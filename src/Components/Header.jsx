@@ -61,7 +61,7 @@ export default function Header() {
           } absolute top-12 left-0 w-full z-20 bg-white lg:block overflow-hidden`}
         >
           <ul className="py-10 lg:py-0 flex flex-col gap-3 lg:flex-row items-center lg:gap-10 font-medium lg:visible lg:static">
-            <li className="text-center rounded bg-[#c0fad45b] active:bg-[#90fdb65b]  w-full lg:w-fit p-3 lg:p-0 cursor-pointer hover:scale-103 transition-all duration-300 hover:text-[#36B864] hover:pb-1 hover:border-b active:text-[#21723c] lg:bg-white">
+            <li className="text-center rounded bg-[#c0fad45b] active:bg-[#90fdb65b]  w-full lg:w-fit p-3 lg:p-0 cursor-pointer hover:scale-103 transition-all duration-300 hover:text-[#36B864] hover:pb-1 hover:border-b active:text-[#21723c] lg:bg-white ">
               <a href="#home">Home</a>
              
             </li>
@@ -87,6 +87,7 @@ export default function Header() {
       left-0 This will make the menu slide in from the left side on mobile
       screens. Let me know if you'd also like to add fade-in, backdrop blur, or
       close on outside click functionality. 2/2 Ask ChatGPT */}
+lorem
     </header>
   );
 }
