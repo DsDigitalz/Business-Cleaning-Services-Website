@@ -87,7 +87,6 @@ export default function Header() {
       left-0 This will make the menu slide in from the left side on mobile
       screens. Let me know if you'd also like to add fade-in, backdrop blur, or
       close on outside click functionality. 2/2 Ask ChatGPT */}
-lorem
     </header>
   );
 }

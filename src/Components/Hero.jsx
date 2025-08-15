@@ -1,6 +1,23 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 export default function Hero() {
+  const containerVariants = {
+    hidden: {
+      opacity: 0,
+      y: -50,
+    },
+
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.5,
+        ease: "easeInOut",
+      },
+    },
+  };
+
   return (
     <section
       className="relative mx-auto md:flex md:justify-center scroll-smooth"
@@ -12,7 +29,11 @@ export default function Hero() {
       <div className=" hidden md:block w-full">
         <img src="/banner.png" alt="" className="w-full" />
       </div>
-      <div className=" flex flex-col gap-7 absolute left-5 top-40 w-[90%] sm:absolute  md:absolute md:top-10 md:left-20 md:flex md:flex-col md:gap-1 lg:top-20 lg:left-41 lg:gap-5 lg:w-[70%] xl:top-15   2xl:top-35 2xl:w-[60%] 2xl:left-99 ">
+      <motion.div 
+      variants={(containerVariants)}
+      initial="hidden"
+      animate="visible"
+      className=" flex flex-col gap-7 absolute left-5 top-40 w-[90%] sm:absolute  md:absolute md:top-10 md:left-20 md:flex md:flex-col md:gap-1 lg:top-20 lg:left-41 lg:gap-5 lg:w-[70%] xl:top-15   2xl:top-35 2xl:w-[60%] 2xl:left-99 ">
         <div className="flex flex-col gap-2">
           <p className="text-white  md:text-[16px] md:text-black xl:text-[20px]">
             Quality cleaning at a fair price
@@ -33,7 +54,7 @@ export default function Hero() {
             View all Services
           </button>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 }
