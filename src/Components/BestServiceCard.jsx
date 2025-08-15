@@ -1,10 +1,51 @@
 import React from "react";
 import { FiArrowUpRight } from "react-icons/fi";
+import { easeIn, easeOut, motion } from "framer-motion";
 
 export default function BestServiceCard() {
+  const containerVariants = {
+    hidden: {
+      opacity: 0,
+      y: 50,
+    },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.6,
+        ease: "easeOut",
+        staggerChildren: 0.3,
+       //For sequential children\
+      .
+      },
+    },
+  };
+  const itemVariants = {
+    hidden: {
+      opacity: 0,
+      y: 50,
+    },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.6,
+        ease: "easeOut",
+      },
+    },
+  };
+
   return (
-    <section className="grid grid-cols-1 px-5 gap-10 w-full rounded-t-4xl md:grid-cols-2 md:px-20 lg:grid-cols-3 lg:px-40 xl:grid-cols-3 2xl:grid-cols-3 max-w-[1440px] mx-auto mt-10 mb-20 scroll-smooth" id="services">
-      <div
+    <motion.section
+      variants={containerVariants}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.5 }}
+      className="grid grid-cols-1 px-5 gap-10 w-full rounded-t-4xl md:grid-cols-2 md:px-20 lg:grid-cols-3 lg:px-40 xl:grid-cols-3 2xl:grid-cols-3 max-w-[1440px] mx-auto mt-10 mb-20 scroll-smooth"
+      id="services"
+    >
+      <motion.div
+        variants={itemVariants}
         className="flex flex-col gap-4 border border-zinc-200 rounded-4xl hover:shadow-2xl hover:shadow-[#2a8f4c45]
         hover:scale-103 hover:transition-all-opacity duration-500"
       >
@@ -22,8 +63,9 @@ export default function BestServiceCard() {
             <FiArrowUpRight />
           </button>
         </div>
-      </div>
-      <div
+      </motion.div>
+      <motion.div
+      variants={itemVariants}
         className="flex flex-col gap-4 border border-zinc-200 rounded-4xl hover:shadow-2xl hover:shadow-[#2a8f4c45]
         hover:scale-103 hover:transition-all-opacity duration-500"
       >
@@ -41,8 +83,9 @@ export default function BestServiceCard() {
             <FiArrowUpRight />
           </button>
         </div>
-      </div>
-      <div
+      </motion.div>
+      <motion.div
+      variants={itemVariants}
         className="flex flex-col gap-4 border border-zinc-200 rounded-4xl hover:shadow-2xl hover:shadow-[#2a8f4c45]
         hover:scale-103 hover:transition-all-opacity duration-500 "
       >
@@ -60,7 +103,7 @@ export default function BestServiceCard() {
             <FiArrowUpRight />
           </button>
         </div>
-      </div>
-    </section>
+      </motion.div>
+    </motion.section>
   );
 }
