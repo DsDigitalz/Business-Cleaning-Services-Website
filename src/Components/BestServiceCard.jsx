@@ -15,8 +15,8 @@ export default function BestServiceCard() {
         duration: 0.6,
         ease: "easeOut",
         staggerChildren: 0.3,
-       //For sequential children\
-      .
+        //For sequential children\
+        when,
       },
     },
   };
@@ -35,9 +35,15 @@ export default function BestServiceCard() {
     },
   };
 
+  const buttonVariants = {
+    hover: {
+      scale: [1, 1.1, 1, 1.1],
+    },
+  };
+
   return (
     <motion.section
-      variants={containerVariants}
+      variants={containerVariants}  
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.5 }}
@@ -65,7 +71,7 @@ export default function BestServiceCard() {
         </div>
       </motion.div>
       <motion.div
-      variants={itemVariants}
+        variants={itemVariants}
         className="flex flex-col gap-4 border border-zinc-200 rounded-4xl hover:shadow-2xl hover:shadow-[#2a8f4c45]
         hover:scale-103 hover:transition-all-opacity duration-500"
       >
@@ -85,7 +91,7 @@ export default function BestServiceCard() {
         </div>
       </motion.div>
       <motion.div
-      variants={itemVariants}
+        variants={itemVariants}
         className="flex flex-col gap-4 border border-zinc-200 rounded-4xl hover:shadow-2xl hover:shadow-[#2a8f4c45]
         hover:scale-103 hover:transition-all-opacity duration-500 "
       >

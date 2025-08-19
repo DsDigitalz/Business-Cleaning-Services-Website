@@ -1,6 +1,14 @@
 import React from "react";
-
+import { delay, motion } from "framer-motion";
 export default function QuoteSection() {
+  const buttonVariants = {
+    hover: {
+      scale: [1, 1.1, 1, 1.1, 1, 1.1, 1],
+      textshadow: "0px 0px 8px rgb(255, 255, 255)",
+      boxShadow: "0px 0px 8px rgb(255, 255)",
+      transition: { delay: 0.1, duration: 0.3, ease: "easeInOut" },
+    },
+  };
   return (
     <section className="bg-[#FFFFF0]">
       <div className="max-w-[1440px] mx-auto px-5 py-10  md:flex md:flex-row-reverse md:items-center  md:px-20 lg:px-40">
@@ -16,9 +24,12 @@ export default function QuoteSection() {
             We provide comprehensive cleaning services tailored to your needs.
             From residential cleaning services
           </p>
-          <button className="transition-all duration-300 cursor-pointer bg-[#2a8f4c] rounded text-white py-3 px-5 font-semibold active:bg-[#21723c]">
+          <motion.button
+            variants={buttonVariants}
+            className="transition-all duration-300 cursor-pointer bg-[#2a8f4c] rounded text-white py-3 px-5 font-semibold active:bg-[#21723c]"
+          >
             Get a quote
-          </button>
+          </motion.button>
         </div>
       </div>
     </section>
